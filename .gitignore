@@ -35,8 +35,7 @@ dist/
 build/
 
 # Data files (optional, if data is too large or sensitive)
-data/raw/
-data/processed/
+data/
 *.csv
 *.txt
 
