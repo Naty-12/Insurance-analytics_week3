@@ -27,3 +27,14 @@ jobs:
     - name: Run EDA Script (example)
       run: |
         python scripts/eda_summary.py
+
+    - name: Run flake8 for linting
+      run: flake8 .
+
+    - name: Run tests with pytest
+      run: pytest
+
+    # Optional: Run nbQA for notebook linting
+    - name: Lint notebooks with nbQA
+      run: nbqa flake8 notebooks/
+      # Adjust the path if your notebooks are in a different folder
