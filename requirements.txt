@@ -1,0 +1,37 @@
+# Core packages
+pandas==2.2.2
+numpy==1.26.4
+
+# Visualization
+matplotlib==3.8.4
+seaborn==0.13.2
+plotly==5.21.0
+
+# Statistical modeling
+scipy==1.13.1
+statsmodels==0.14.2
+
+# Machine learning
+scikit-learn==1.4.2
+xgboost==2.0.3
+
+# Jupyter environment
+jupyterlab==4.1.8
+ipykernel==6.29.4
+
+# Geospatial (optional but useful for zip code / province analysis)
+geopandas==0.14.4
+shapely==2.0.4
+
+# Data cleaning and validation
+pyjanitor==0.25.0
+missingno==0.5.2
+
+# CI/CD & utilities
+black==24.4.2
+flake8==7.0.0
+pre-commit==3.7.0
+pytest==8.2.1
+
+# For working with datetime if needed
+python-dateutil==2.9.0.post0
